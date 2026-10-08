@@ -21,4 +21,4 @@ jobs:
         run: npm install -g surge
 
       - name: Desplegar en Surge.sh
-        run: surge ./ Puro.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ nadie-usa-a-puro.surge.sh --token ${{ secrets.SURGE_TOKEN }}
